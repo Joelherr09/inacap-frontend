@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.cuerpo-pagina{
+    background-image: url(/img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link-navbar{
+    font-size: em;
+    
+    padding: 0px 60px;
+}
+.link-navbar:hover{
+    border-bottom: 2px solid white;
+}
+
+.lista-empleado{
+    background-color: white;
+    padding: 6px 0px;
+    margin: 6px 6px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lista-empleados-container{
+    width: 100%;
+}
